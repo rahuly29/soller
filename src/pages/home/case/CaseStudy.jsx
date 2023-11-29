@@ -15,7 +15,7 @@ const CaseStudy = () => {
                         </div>
                         <div className='col-12 col-lg-5 m-lg-5 pt-lg-5'>
                             <div className=''>
-                                <Slide>
+                                <Slide direction='right'>
                                     <h6 className='caption text-center text-lg-start'>Case Studies</h6>
                                     <h3 className='service-heading text-center text-lg-start'>Check how our systems have helped others</h3>
                                     <p className='service-para text-center text-lg-start'>

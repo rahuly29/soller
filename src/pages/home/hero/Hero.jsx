@@ -59,10 +59,10 @@ const Hero = () => {
       <div className="container-fluid">
         <div className='row'>
           <div className="col-md-6 col-lg-6 order-md-last p-0">
-            <Zoom delay={500}>
+            <Slide direction='right'>
               <img src="/assets/images/hero-desktop.png" alt="" className='img-fluid w-100 h-100 d-none d-lg-block' />
               <img src="/assets/images/hero-mobile-bg.png" alt="" className='img-fluid d-block d-lg-none' />
-            </Zoom>
+            </Slide>
           </div>
           <div className="col-md-6 col-lg-6 mt-5 pt-md-4 ps-md-5 order-md-first">
             <Slide>

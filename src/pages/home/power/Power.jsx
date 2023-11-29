@@ -1,7 +1,7 @@
 import React from 'react'
 import "./power.css"
 import Button from '../../../components/button/Button'
-import { Slide,JackInTheBox } from 'react-awesome-reveal'
+import { Slide,JackInTheBox,Fade } from 'react-awesome-reveal'
 
 
 const Power = () => {
@@ -36,9 +36,9 @@ const Power = () => {
                         <div className="row">
                             <div className="col-12 text-center">
                                 <div className=" p-3 ms-auto ">
-                                    <JackInTheBox >
+                                    <Fade delay={1000} >
                                         <img src="/assets/images/Macbook.svg" alt="" className='img-fluid  w-100' />
-                                    </JackInTheBox>
+                                    </Fade>
                                 </div>
                             </div>
                         </div>
