@@ -65,7 +65,7 @@ const Hero = () => {
             </Zoom>
           </div>
           <div className="col-md-6 col-lg-6 mt-5 pt-md-4 ps-md-5 order-md-first">
-            <Slide cascade damping={.8}>
+            <Slide>
               <h2 className='hero-heading mt-md-5 mb-0 text-center text-lg-start'>Get the Sun to Power Your Home</h2>
               <p className='hero-para py-4 text-center text-lg-start'>
                 Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.

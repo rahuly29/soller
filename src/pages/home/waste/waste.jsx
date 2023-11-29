@@ -8,7 +8,7 @@ const Waste = () => {
       <div className='waste-bg'>
         <div className='d-flex flex-column  justify-content-center align-items-center'>
           <div className='d-flex flex-column justify-content-center align-items-center text-center text-lg-center'>
-            <Slide fraction={1}>
+            <Slide>
             <h6 className='caption'>No more waste</h6>
             <h3 className='waste-heading'>Pick the sun</h3>
             <p className='waste-para'>
