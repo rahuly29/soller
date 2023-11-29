@@ -1,6 +1,6 @@
 import React from 'react';
 import "./waste.css"
-import { Bounce } from 'react-awesome-reveal';
+import { Bounce,Slide } from 'react-awesome-reveal';
 
 const Waste = () => {
   return (
