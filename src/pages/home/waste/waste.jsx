@@ -8,7 +8,7 @@ const Waste = () => {
       <div className='waste-bg'>
         <div className='d-flex flex-column  justify-content-center align-items-center'>
           <div className='d-flex flex-column justify-content-center align-items-center text-center text-lg-center'>
-            <Bounce fraction={1}>
+            <Slide fraction={1}>
             <h6 className='caption'>No more waste</h6>
             <h3 className='waste-heading'>Pick the sun</h3>
             <p className='waste-para'>
@@ -16,7 +16,7 @@ const Waste = () => {
               A, donec ornare sed turpis pulvinar<br/> purus maecenas quam a.
               Erat porttitor pharetra sed in mauris elementum sollicitudin.
             </p>
-            </Bounce>
+            </Slide>
           </div>
           <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
             <Bounce>
