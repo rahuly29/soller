@@ -1,0 +1,39 @@
+.power-caption{
+    color: var(--amber-300);
+    /* text-align: center; */
+    font-family: var(--font-family);
+    font-size: var(--third-para);
+    font-style: normal;
+    font-weight: var(--link-font-w);
+    line-height: 110%;
+}
+.text-white{
+    color: #fff;
+}
+
+.power-heading {
+    font-family: var(--font-family);
+    font-size: var(--second-heading);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-desktop);
+    line-height: 110%;
+    /* 61.6px */
+}
+
+.power-subtitle {
+    color: var(--amber-900);
+    font-family: var(--font-family);
+    font-size: var(--second-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.power-bg{
+    background: url("/public/assets/images/last-container.png");
+    background-position: left bottom;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-color: var(--purple-900);
+}

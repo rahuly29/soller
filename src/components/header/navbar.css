@@ -1,0 +1,70 @@
+.custom-navbar-brand {
+    text-decoration: none;
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--logo-heading);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-mobile);
+    line-height: 110%;
+    /* 35.2px */
+}
+
+.custom-link {
+    text-decoration: none;
+    color: var(--blue-gray-900) !important;
+    /* Button/M */
+    font-family: var(--font-family) !important;
+    font-size: var(--fourth-para) !important;
+    font-style: normal;
+    font-weight: var(--link-font-w) !important;
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}
+
+.btn-heading {
+    color: var(--amber-900);
+    font-family: var(--font-family);
+    font-size: var(--fourth-para);
+    font-style: normal;
+    font-weight: var(--link-font-w);
+    line-height: 24px;
+    letter-spacing: 0.5px;
+}
+
+/* animation start */
+Button{
+    transition: transform 0.3s ease-in-out, scale 0.3s ease-in-out;
+}
+
+Button:hover {
+    transform: scale(1.03);
+    transition: .3s ease-in-out;
+    background-color: var(--purple-700);
+    box-shadow: -8px -8px var(--amber-300);
+}
+Button:hover .customColor{
+    color: #fff;
+}
+
+.arrow{
+    transition: transform 0.3s ease-in-out, scale .3s ease-in-out;
+}
+
+Button:hover .arrow {
+    /* transform: translateX(5px); */
+    transform: translateX(50%);
+}
+/* end */
+
+.phone-number {
+    text-decoration: none;
+    color: var(--blue-light-700);
+    font-family: var(--font-family);
+    font-size: var(--fourth-para);
+    font-style: normal;
+    font-weight: var(--link-font-w);
+    line-height: 24px;
+    /* 150% */
+    letter-spacing: 0.5px;
+}

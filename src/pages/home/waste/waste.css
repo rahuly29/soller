@@ -1,0 +1,51 @@
+.waste-bg{
+    background: url('/public/assets/images/Circles.png');
+    background-size: contain;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+
+.caption {
+    color: var(--amber-600);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--third-para);
+    font-style: normal;
+    font-weight: var(--link-font-w);
+    line-height: 110%;
+    /* 22px */
+}
+
+.waste-heading {
+    color: var(--blue-gray-900);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--second-heading);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-desktop);
+    line-height: 110%;
+    /* 61.6px */
+}
+
+.waste-para {
+    color: var(--blue-gray-900);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--third-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 180%;
+    /* 36px */
+}
+
+@media (max-width:320px) {
+    .waste-bg{
+        background-position-y: 17rem;
+        
+    }
+    .mobileWaste{
+        width: 85%;
+        margin-left: 1.5rem;
+    }
+    
+}

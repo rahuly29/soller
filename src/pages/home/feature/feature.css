@@ -1,0 +1,6 @@
+.feature-bg{
+    background: url("/public/assets/images/Rectangle.svg");
+    background-position: right;
+    background-size: contain;
+    background-repeat: no-repeat;
+}

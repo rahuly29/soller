@@ -1,0 +1,36 @@
+.harvester-bg {
+    background: url("/public/assets/images/harvest-bg.png");
+    background-size: contain;
+    background-position-x: right;
+    background-repeat: no-repeat;
+    background-color: var(--purple-900);
+    
+}
+.h-bg{
+    mix-blend-mode: difference;
+    margin-top: 10rem;
+    margin-left: -4.5rem;
+}
+
+.harvest-caption {
+    color: var(--amber-300);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--third-para);
+    font-style: normal;
+    font-weight: var(--link-font-w);
+    line-height: 110%;
+}
+
+.active-slide {
+    transform: scale(1.1);
+    transition: transform 0.2s ease-in-out;
+}
+
+
+@media (max-width:578px) {
+    .active-slide {
+        transform: scale(1);
+        transition: transform 0.5s ease-in-out;
+    }
+}

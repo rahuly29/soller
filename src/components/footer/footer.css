@@ -1,0 +1,25 @@
+footer {
+    background-color: rgb(250, 249, 249) !important;
+}
+
+
+.footer-link {
+    text-decoration: none;
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--fourth-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 140%;
+    /* 22.4px */
+}
+
+.footer-copyright {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--fourth-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 140%;
+    /* 22.4px */
+}

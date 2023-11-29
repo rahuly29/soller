@@ -1,0 +1,22 @@
+
+
+.case-bg{
+    background: url("/public/assets/images/Ellipse\ 4.png");
+    background-position: right bottom;
+    background-size: 25rem;
+    background-repeat: no-repeat;
+    background-origin: content-box;
+}
+.case-arrow{
+    transition: transform 0.3s ease-in-out, scale .3s ease-in-out;
+}
+a:hover .case-arrow{
+    transform: translateX(5px);
+}
+
+
+@media (max-width:992px) {
+       .case-bg{
+        background: none;
+       } 
+}

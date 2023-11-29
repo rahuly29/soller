@@ -1,0 +1,62 @@
+.hero-heading {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--main-heading);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-desktop);
+    line-height: 110%;
+    /* 79.2px */
+}
+
+.hero-para {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--main-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 160%;
+    /* 38.4px */
+}
+
+.hero-btn-heading {
+    color: var(--amber-900);
+    /* Button/XL */
+    font-family: var(--font-family);
+    font-size: var(--main-para);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-mobile);
+    line-height: 24px;
+    /* 100% */
+    letter-spacing: 0.5px;
+}
+
+
+.hero-second-para {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--second-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.user-name {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--second-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 160%;
+    /* 28.8px */
+}
+
+.user-name span {
+    color: var(--blue-gray-600);
+    font-family: var(--font-family);
+    font-size: var(--second-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 140%;
+    /* 22.4px */
+}

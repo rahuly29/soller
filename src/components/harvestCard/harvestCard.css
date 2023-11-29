@@ -1,0 +1,14 @@
+.card {
+    width: 300px;
+    height: 379px;
+}
+
+.card-text {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--second-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 160%;
+    /* 28.8px */
+}

@@ -1,0 +1,19 @@
+.card-title {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--main-para);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-mobile);
+    line-height: 110%;
+    /* 26.4px */
+}
+
+.card-para {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--second-para);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 160%;
+    /* 28.8px */
+}

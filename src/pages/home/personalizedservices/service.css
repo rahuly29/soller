@@ -1,0 +1,39 @@
+.service-bg {
+    background: url("/public/assets/images/left-bg.png");
+    background-position: left;
+    background-size: contain;
+    background-repeat: no-repeat;
+   
+    
+}
+
+.service-heading {
+    color: var(--blue-gray-900);
+    text-align: center;
+    font-family: var(--font-family);
+    font-size: var(--second-heading);
+    font-style: normal;
+    font-weight: var(--heading-font-weight-desktop);
+    line-height: 110%;
+}
+
+.service-para {
+    color: var(--blue-gray-900);
+    font-family: var(--font-family);
+    font-size: var(--caption);
+    font-style: normal;
+    font-weight: var(--para-font-w);
+    line-height: 180%;
+    /* 36px */
+}
+
+.mobile-piece{
+    top: 22rem;
+    left: 25.4rem;
+}
+
+@media (max-width:998px) {
+        .service-bg{
+            width: 100%;
+        }
+}
