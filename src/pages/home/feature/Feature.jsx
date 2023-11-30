@@ -62,9 +62,9 @@ const Feature = () => {
                     </div>
                 </div>
                 <div className='col-12 col-lg-4 feature-bg '>
-                    <Flip delay={1000}>
+                    <Slide delay={500} direction="right">
                         <img src="/assets/images/Mobile-right.png" alt="" className='img-fluid ms-auto pt-5' />
-                    </Flip>
+                    </Slide>
                 </div>
             </div>
         </section>
