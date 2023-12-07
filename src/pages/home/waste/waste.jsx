@@ -1,6 +1,6 @@
 import React from 'react';
 import "./waste.css"
-import { Bounce,Slide } from 'react-awesome-reveal';
+import { Bounce,Fade,Slide } from 'react-awesome-reveal';
 
 const Waste = () => {
   return (
@@ -8,7 +8,7 @@ const Waste = () => {
       <div className='waste-bg'>
         <div className='d-flex flex-column  justify-content-center align-items-center'>
           <div className='d-flex flex-column justify-content-center align-items-center text-center text-lg-center'>
-            <Slide>
+            <Slide triggerOnce>
             <h6 className='caption'>No more waste</h6>
             <h3 className='waste-heading'>Pick the sun</h3>
             <p className='waste-para'>
@@ -19,10 +19,10 @@ const Waste = () => {
             </Slide>
           </div>
           <div className='d-flex flex-column justify-content-center align-items-center mt-5'>
-            <Bounce>
+            <Fade >
             <img src="/assets/images/Desktop.png" alt="" className='img-fluid d-none d-lg-block'/>
             <img src="/assets/images/Mobile.png" alt="" className='img-fluid d-block d-lg-none mobileWaste '/>
-            </Bounce>
+            </Fade>
           </div>
         </div>
       </div>

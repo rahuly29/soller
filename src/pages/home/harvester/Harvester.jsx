@@ -107,7 +107,7 @@ const Harvester = () => {
                 <div className="row mt-5 pt-5 ms-lg-5">
                     <div className="col mt-5">
                         <div className='m-auto'>
-                            <Slide>
+                            <Slide triggerOnce>
                                 <h6 className='harvest-caption text-center text-lg-start'>Join other Sun harvester</h6>
                                 <h3 className='service-heading mb-4 text-center text-lg-start text-white'>Make something awesome</h3>
                                 <p className='service-para text-center text-lg-start text-white'>

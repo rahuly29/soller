@@ -9,13 +9,13 @@ const CaseStudy = () => {
                 <div className="container m-auto ">
                     <div className="row ">
                         <div className="col-12 col-lg-5">
-                            <Slide>
+                            <Slide triggerOnce>
                                 <img src="/assets/images/case-container.svg" alt="" className='img-fluid py-5' />
                             </Slide>
                         </div>
                         <div className='col-12 col-lg-5 m-lg-5 pt-lg-5'>
                             <div className=''>
-                                <Slide direction='right'>
+                                <Slide direction='right' triggerOnce>
                                     <h6 className='caption text-center text-lg-start'>Case Studies</h6>
                                     <h3 className='service-heading text-center text-lg-start'>Check how our systems have helped others</h3>
                                     <p className='service-para text-center text-lg-start'>

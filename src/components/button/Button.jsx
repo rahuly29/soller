@@ -4,7 +4,7 @@ import { Slide } from 'react-awesome-reveal'
 
 const Button = (props) => {
     return (
-       <Slide>
+       <Slide triggerOnce>
          <button className=" custom-btn btn-block px-4 py-2 " {...props} >
             {props.children}
         </button>

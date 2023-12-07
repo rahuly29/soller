@@ -11,13 +11,13 @@ const Hero = () => {
       <div className="container-fluid">
         <div className='row'>
           <div className="col-md-6 col-lg-6 order-md-last p-0">
-            <Slide direction='right'>
+            <Fade triggerOnce>
               <img src="/assets/images/hero-desktop.png" alt="" className='img-fluid w-100 h-100 d-none d-lg-block' />
               <img src="/assets/images/hero-mobile-bg.png" alt="" className='img-fluid d-block d-lg-none' />
-            </Slide>
+            </Fade>
           </div>
           <div className="col-md-6 col-lg-6 mt-5 pt-md-4 ps-md-5 order-md-first">
-            <Slide>
+            <Slide triggerOnce>
               <h2 className='hero-heading mt-md-5 mb-0 text-center text-lg-start'>Get the Sun to Power Your Home</h2>
               <p className='hero-para py-4 text-center text-lg-start'>
                 Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque.
@@ -30,17 +30,17 @@ const Hero = () => {
               </Button>
             </div>
             <div className='pt-5 pt-lg-5 mt-4 mt-lg-4'>
-              <Slide>
+              <Slide triggerOnce>
                 <p className='hero-second-para'>
                   “Viverra viverra nibh enim et aliquam, enim. Tempor, sit mus viverra orci dui consequat turpis scelerisque faucibus.”
                 </p>
               </Slide>
               <div className='d-flex justify-content-start align-items-center'>
-                <Slide>
+                <Slide triggerOnce>
                   <img src="/assets/images/User Thumb.svg" alt="" className='d-inline' />
                 </Slide>
                 <div className='ms-3'>
-                  <Slide>
+                  <Slide triggerOnce>
                     <p className='user-name pt-3'>Rwanda Melflor <br />
                       <span>zerowaste.com</span>
                     </p>

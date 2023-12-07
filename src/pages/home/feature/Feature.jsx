@@ -9,7 +9,7 @@ const Feature = () => {
             <div className="row m-0 pt-3">
                 <div className="col-12 col-lg-7 m-auto mt-5 pt-4 ms-lg-5">
                     <div className='d-flex flex-column'>
-                        <Slide>
+                        <Slide triggerOnce>
                             <h6 className='caption text-center text-lg-start'>System features</h6>
                             <h3 className='service-heading mb-4 text-center text-lg-start'>Powerful features</h3>
                             <p className='service-para text-center text-lg-start'>
@@ -20,7 +20,7 @@ const Feature = () => {
                     <div className="row mt-3 text-center text-lg-start">
                         {/* First row with two components */}
                         <div className="col g-4">
-                            <Slide>
+                            <Slide triggerOnce>
                                 <Card
                                     imageUrl="/assets/icons/connection.svg"
                                     title="Erat sit"
@@ -29,7 +29,7 @@ const Feature = () => {
                             </Slide>
                         </div>
                         <div className="col g-4">
-                            <Slide>
+                            <Slide triggerOnce>
                                 <Card
                                     imageUrl="/assets/icons/like.svg"
                                     title="Ullamcorper arcu"
@@ -42,7 +42,7 @@ const Feature = () => {
                     <div className="row text-center text-lg-start">
                         {/* Second row with two components */}
                         <div className="col g-4">
-                            <Slide>
+                            <Slide triggerOnce>
                                 <Card
                                     imageUrl="/assets/icons/send.svg"
                                     title="Et pellentesque"
@@ -51,7 +51,7 @@ const Feature = () => {
                             </Slide>
                         </div>
                         <div className="col g-4">
-                            <Slide>
+                            <Slide triggerOnce>
                                 <Card
                                     imageUrl="/assets/icons/box.svg"
                                     title="Amet egestas"
@@ -62,7 +62,7 @@ const Feature = () => {
                     </div>
                 </div>
                 <div className='col-12 col-lg-4 feature-bg '>
-                    <Slide delay={500} direction="right">
+                    <Slide delay={500} direction="right" triggerOnce>
                         <img src="/assets/images/Mobile-right.png" alt="" className='img-fluid ms-auto pt-5' />
                     </Slide>
                 </div>

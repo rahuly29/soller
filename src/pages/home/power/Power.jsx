@@ -12,7 +12,7 @@ const Power = () => {
             <div className='power-bg'>
                 <div className="row ms-lg-5 position-relative">
                     <div className="col-lg-8 mt-5 mb-3">
-                        <Slide>
+                        <Slide triggerOnce>
                             <h6 className='power-caption text-center text-lg-start'>
                                 Get the Sun to power your home
                             </h6>
@@ -26,7 +26,7 @@ const Power = () => {
                             <span className='hero-btn-heading px-1 customColor'> Request a Quote </span>
                             <span className='px-1'><img src="/assets/icons/rightArrow.svg" alt="" className='arrow' /></span>
                         </Button>
-                        <Slide>
+                        <Slide triggerOnce>
                             <p className="power-subtitle mt-3 text-center text-white">
                                 Egestas fringilla aliquam leo
                             </p>
@@ -36,7 +36,7 @@ const Power = () => {
                         <div className="row">
                             <div className="col-12 text-center">
                                 <div className=" p-3 ms-auto ">
-                                    <Fade delay={1000} >
+                                    <Fade delay={1000} triggerOnce>
                                         <img src="/assets/images/Macbook.svg" alt="" className='img-fluid  w-100' />
                                     </Fade>
                                 </div>
